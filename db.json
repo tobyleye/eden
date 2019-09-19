@@ -1,0 +1,9 @@
+{
+  "hotels": [],
+  "login": [
+    {
+      "email": "admin@mail.com",
+      "password": "secret"
+    }
+  ]
+}
