@@ -1,0 +1,131 @@
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #f06112;
+  --text-color: #282828;
+  --width: 1200px;
+  --money-green: #219653;
+  --transition-speed-normal: 300ms;
+  --header-height: 6rem;
+}
+
+html {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);  
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  border: 1px solid transparent;
+  padding: .8rem 1.4rem;
+  border-radius: 4px;
+  font-size: 1.6rem;
+}
+
+.v-height {
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.fixed-header {
+  padding-top: var(--header-height);
+}
+
+.header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  box-shadow: 0px 2px 3px rgba(0,0,0,.2);
+}
+
+.header-wrap {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--width);
+  margin: auto;
+  padding: 0 1.6rem;
+}
+
+
+.brand {
+  color: var(--brand-color);
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.admin .welcome-message {
+  font-weight: 600;
+  margin-right: 1.6rem;
+}
+
+.loader {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.loader #spinner {
+  box-sizing: border-box;
+  stroke: var(--brand-color);
+  stroke-width: 3px;
+  transform-origin: 50%;
+  animation: line 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite, rotate 1.6s linear infinite; 
+}
+
+@keyframes line {
+  0% {
+    stroke-dasharray: 2, 85.964;
+    transform: rotate(0); 
+  }
+  
+  50% {
+    stroke-dasharray: 65.973, 21.9911;
+    stroke-dashoffset: 0; 
+  }
+  
+  100% {
+    stroke-dasharray: 2, 85.964;
+    stroke-dashoffset: -65.973;
+    transform: rotate(90deg); 
+  } 
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(450deg); }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .admin .welcome-message {
+    display: none;
+  }
+}

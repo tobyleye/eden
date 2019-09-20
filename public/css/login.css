@@ -1,0 +1,50 @@
+#login {
+  min-height: 100vh;
+  display: flex;
+}
+
+#login .col-1 {
+  flex: 0 0 450px;
+}
+
+#login .form-container {
+  max-width: 420px;
+  margin: 25vh auto 0;
+  padding: 0 1.6rem;
+}
+
+#login .form-title {
+  font-size: 2.55rem;
+  margin-bottom: 1rem
+}
+
+#login #formErrors {
+  color: #ff1100;
+  font-size: 1.8rem;
+  margin: 1.2rem 0;
+}
+
+#login .brand {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+#login .col-2 {
+  flex: 1;
+  background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+              url(../img/search-box-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 760px) {
+  #login .col-2 {
+    display: none;
+  }
+
+  #login .col-1 {
+    flex: 1;
+  }
+}

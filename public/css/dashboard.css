@@ -1,0 +1,112 @@
+#adminDashboard {
+  background: #f5f7f8;
+}
+
+
+#adminDashboard .main-section {
+  max-width: var(--width);
+  margin: 3rem auto 0;
+  padding: 0 1.6rem 6rem;
+}
+
+
+#adminDashboard .main-section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.add-hotel {
+  background: var(--brand-color);
+  color: #fff;
+  font-weight: 500;
+}
+
+#adminDashboard .table-wrapper {
+  background: #fff;
+  border-radius: 5px;
+  overflow-x: auto;
+  box-shadow: 0px 3px 5px rgba(0,0,0,.1);
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.table tr {
+  cursor: pointer;
+}
+
+.table td,
+.table th {
+  border-bottom: 2px solid #e0e0e0;
+  padding: 8px 16px;
+}
+
+.table th.desc {
+  max-width: 100px;
+}
+
+.table th {
+  font-weight: 700;
+}
+
+.table td.price {
+  color: var(--money-green);
+  font-weight: 500;
+}
+
+.icon-btn {
+  background: #fff;
+  border: 0;
+}
+
+.table a {
+  font-weight: 500;
+  color: inherit;
+}
+
+.table img {
+  width: 200px;
+  height: 150px;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.icon-btn.edit {
+  color: #4fc3f7;
+}
+
+.icon-btn.delete {
+  color: #f44336;
+}
+
+.empty {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.empty span[role="img"] {
+  font-size: 10rem;
+}
+
+.empty p {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .table {
+    font-size: 1.3rem;
+  }
+
+  .table .img {
+    display: none;
+  }
+
+  .table .desc {
+    display: none;
+  }
+}

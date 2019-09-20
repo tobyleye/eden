@@ -1,0 +1,204 @@
+#index {
+  background: #f5f6f7;
+}
+
+.container {
+  max-width: var(--width);
+  padding: 0 1.6rem;
+  margin: 0 auto;
+}
+
+.search-box {
+  padding: 10rem 0;
+  color: #fff;
+  background: #f9f9f9;
+  background:
+            linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
+            url("../img/search-box-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.search-box .search-box__title {
+  margin-bottom: 5px;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.search-box .search-box__sub-title {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+
+.search-box-button {
+  padding: .8rem 1.6rem;
+  font-size: 1.6rem;
+  border: 0;
+  background: var(--brand-color);
+  color: #fff;
+  font-weight: 600;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+}
+
+.search-form select {
+  flex: 1;
+  padding: 1.2rem 1.6rem ;
+  font-size: 1.6rem;
+  background: #fff;
+}
+
+.top-hotels__title {
+  font-size: 2.5rem;
+  padding: 6rem 0 1rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.hotel-listings {
+  max-width: 920px;
+}
+
+.hotel {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 3px 5px rgba(0,0,0,.1);
+  transition: background var(--transition-speed-normal) ease-in-out;
+}
+
+.hotel:hover {
+  box-shadow: 0px 4px 18px rgba(0,0,0,.1);
+}
+
+.hotel .hotel-photo-block {
+  width: 100%;
+}
+
+.hotel .hotel-details-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 1.7rem 2rem;
+}
+
+.hotel_img_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hotel_img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 2px;
+}
+
+.hotel_info {
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.hotel_title {
+  color: var(--brand-color);
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.hotel_name_link {
+  color: inherit;
+}
+
+.hotel_location {
+  font-size: 1.3rem;
+  color: #8b8b8b;
+  margin-bottom: 1rem;
+}
+
+.hotel_dec {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.hotel_price::before {
+  content: "₦";
+}
+
+.hotel_price span {
+  font-size: 1.2rem;
+  display: block;
+  color: #333;
+}
+
+.hotel_price {
+  color: var(--money-green);
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.6rem;
+}
+
+.not-found h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.not-found p {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 40rem) {
+  .hotel {
+    flex-direction: row;
+  }
+  
+  .hotel .hotel-photo-block {
+    width: 300px;
+    height: 200px;
+  }
+
+  .hotel .hotel_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hotel_info {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+
+  .hotel .hotel-details-block {
+    flex-direction: row;
+    padding: 1.6rem 1.6rem 1.6rem 1rem;
+  }
+
+  .search-box {
+    padding: 12rem 0;
+  }
+
+  .search-box .search-box__title {
+      font-size: 4rem;
+   }
+
+  .search-box .search-box__sub-title {
+    font-size: 1.8rem;
+  }
+
+}

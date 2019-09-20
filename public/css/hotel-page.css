@@ -1,0 +1,77 @@
+#hotelPage {
+  /*background: #f5f6f7;*/
+}
+
+.hp-content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.hp-header {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.book-button {
+  background: var(--brand-color);
+  color: #fff;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.hp-content h3 {
+  font-size: 2rem;
+  margin-bottom: .8rem;
+}
+
+.hp-gallery {
+  padding: 2rem;
+  background: #f5f6f7;
+  margin-bottom: 2rem;
+}
+
+.hp-gallery img {
+  margin: auto;
+  display: block;
+  height: auto;
+  max-width: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hp-description {
+  padding: 2rem 0;
+}
+
+.hp-description p {
+  font-size: 1.4rem;
+}
+
+.hp__hotel-name {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: .8rem;
+}
+
+.hp__hotel-address {
+  color: #999;
+  font-size: 1.4rem;
+}
+
+.hp__hotel-price {
+  color: var(--money-green);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 640px) {
+  .hp__hotel-name {
+    font-size: 2rem;
+  }
+}
+

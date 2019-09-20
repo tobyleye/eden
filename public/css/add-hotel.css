@@ -1,0 +1,15 @@
+#addHotel,
+#editHotel {
+  /*background: #f8f9f9;*/
+}
+
+.form-container {
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1.6rem;
+}
+
+.form__title {
+  font-size: 2.4rem;
+  margin-bottom: 3.5rem;
+}
