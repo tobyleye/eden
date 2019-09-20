@@ -1,5 +1,33 @@
 {
-  "hotels": [],
+  "hotels": [
+    {
+      "name": "Integrity Hotel and Suites",
+      "price": "16200",
+      "description": "For a unique feel of fun, leisure and shopping, guests who lodge at Integrity Hotel and Suites can visit the Palms shopping mall which is close to the hotel. Guests at Integrity Hotel and Suites would enjoy top class amenities and excellent customer services at pocket-friendly prices. It is located at 17, Agbagbon Close, Off Ologun Agbaje Street, Adeola Odeku, Victoria Island, Lagos.\n\nEach room is designed with architectural art and is fitted with an air conditioner, a king-sized bed, bedside lamps and a flat screen TV with cable reception. The rooms are fitted with en-suite bathrooms. The room categories offered by Integrity Hotel and Suites include Standard Executive, Deluxe and Executive Deluxe.\n\nGuests can have workout sessions at the gym facility provided by Integrity Hotel and Suites. A swimming pool is available for guests interested in swimming sessions. Guests can make use of the conferencing facility to hold training, presentations and seminars. Large social and corporate gatherings can be held at the event hall. Spa and beauty services can be gotten at the fitness centre. A business centre is available to guests in need of photocopying and printing services. There is a barbecue for guests interested in grilled fish and steak. A Wi-Fi facility has been provided for a free and fast internet access. Integrity Hotel and Suites has a restaurant that offers buffet options to guests. The bar is filled with exotic drinks for guests to enjoy.\n\nIntegrity Hotel and Suites renders 24 hours front desk, airport shuttle and luggage storage services. There is free parking space in the hotel. A constant power supply is enjoyed by guests. the premises are guarded by security personnel.",
+      "location": "Lagos",
+      "address": "17, Agbagbon Close off Ologun Agbaje Street, off Adeola Odeku, Victoria Island.",
+      "image": "img/hotel-img-4.webp",
+      "id": 1
+    },
+    {
+      "name": "Lagos Oriental Hotel",
+      "price": "22000",
+      "description": "Lagos Oriental Hotel is a 5-Star luxury hotel situated in-between the Lekki and Victoria Island areas of Lagos. Located at 3, Lekki Road, Victoria Island, the Lagos Oriental Hotel is within proximity of numerous business and tourist attractions. The Nike Art Gallery is 10 minutes away; it's an excellent spot for international guests.\n\n\nLagos Oriental Hotel has a variety of luxurious room: The Classic Room, the Classic Superior Room, the Classic Deluxe Room, Junior Suite, Executive Junior Suite, Business Suite, Diplomatic Suite, Ambassador Suite, and Presidential Suite. Besides their enthralling original artwork and Asian furnishings, the rooms also offer enchanting views of the Lagos Lagoon. Each room comes with a coffee maker, complimentary bottle of water, a free mini bar, a secure safe box, a Bible, a directory and a few mailing envelopes. Additionally, all rooms have flat LCD screens, individually controlled air conditioning units, and en-suite bathrooms. In the bathroom, guests are treated to the following complimentary items including: Sewing kit, shoehorn, a grooming kit comprising of a toothbrush, comb, shower cap, shampoo, shower gel, lotion, and a bathrobe with slippers. The room rates are inclusive of breakfast.  All the rooms and suites feature refreshing drinks in the mini bar free of charge and replenished once a day.\n\n\nA number of facilities are available at Lagos Oriental Hotel. It has several restaurants and bars, free Wi-Fi in all rooms and some public areas, an outdoor pool with varying degrees of depth that offers an opportunity for the family to play and cool off during sunny days. The Lagos Oriental Hotel serves various local and international culinary options like The Mayumi which offers excellent Japanese cuisine; the Oriental Garden which offers Chinese cuisine; and the Five Cowrie shop which extends out to the poolside, boasts an incredible view of the Lagoon and excellent coffee and pastries.\n\n\nWith regards to business and festivities, the Lagos Oriental also has numerous open-plan meeting room and ballrooms for guests who are looking to organise small business meetings, large conferences, weddings, and other celebrations. The meeting spaces are: The Grand Ballroom, Function rooms with sizes varying between 226 square meters and 77 square meters, the Terrace Sky Garden (600 square meters), the African Dance Bar (230 square meters), and the Asiwaju Lounge (200 square meters). The Poolside also has 250 square meters of space and it is very suitable for birthday parties. \n\n\nThe hotel renders additional services on requests such as: 24 hrs laundry service with a 3-hour express service, 24hrs front desk, concierge services, fitness facilities, free self-parking, designated smoking areas, a bar, and a terrace that offers excellent views of the island of Lagos. For guests who are planning to visit with their family, the Lagos Oriental provides family-friendly features like Cribs for infants.",
+      "location": "Lagos",
+      "address": "3 Lekki Road",
+      "image": "img/hotel-img-1.webp",
+      "id": 3
+    },
+    {
+      "name": "Hotel Ibis Lagos Ikeja",
+      "price": "52000",
+      "description": "Hotel Ibis is a 3-Star hotel located at 23 Toyin Street, Ikeja, Lagos, Nigeria. Hotel Ibis is 8.40 km, approximately 10 minutes, from the Murtala Mohammed Airport (MMA).  \n\n\nHotel Ibis has 165 well-furnished and air-conditioned Standard rooms; free Wi-Fi available in each. The rooms have sweet Ibis beddings, a coffee machine, an LCD screen TV, en-suite bathrooms and full-length windows. Each bathroom has a shower and a hair dryer. The exquisite parquet flooring definitely assures you of sweet steps of comfort, making you as relaxed as possible.\n\n\nHotel Ibis provides awesome facilities which include: a high-class gym and fitness centre; an outdoor pool to ease off stress; and an amazing restaurant that offers an \"all you can eat\" buffet breakfast from 6:30 am to 10 am. It offers local and international mouth-watering delicacies. Also available is well-structured private parking spaces. Hotel Ibis has a large, well-equipped conference hall and an ATM just to make sure guests have quick access to cash.\n\n\nAdditionally, the hotel offers additional services like: Airport Shuttle, Safety Deposit Boxes, Babysitting, Business Center, Car Hire, 24hrs Room Service, Ironing, Event facilities, Concierge. Hotel Ibis provides rooms and facilities for persons with disabilities.",
+      "location": "Delta",
+      "address": "23 Toyin Street, Ikeja, Lagos",
+      "image": "img/hotel-img-1.webp",
+      "id": 4
+    }
+  ],
   "login": [
     {
       "email": "admin@mail.com",
