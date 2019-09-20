@@ -30,9 +30,10 @@ var utils = {
     const price = form.hotel_price.value.trim()
     const description = form.hotel_desc.value.trim()
     const location = form.hotel_location.value
+    const type = form.room_type.value
     const address = form.hotel_address.value.trim()
 
-    return { name, price, description, location, address }
+    return { name, price, description, type, location, address }
 }
 
 }

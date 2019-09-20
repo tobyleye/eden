@@ -59,6 +59,11 @@
   font-weight: 500;
 }
 
+.table td.type {
+  text-transform: capitalize;
+  
+}
+
 .icon-btn {
   background: #fff;
   border: 0;

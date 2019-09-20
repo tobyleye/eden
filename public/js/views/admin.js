@@ -46,12 +46,13 @@ views.edit = function (params) {
 
   fetch(`${api_root}/hotels/${params}`)
     .then(res => res.json())
-    .then(({ name, price, description, location, address }) => {
+    .then(({ name, price, description, location, type, address }) => {
       document.querySelector('#hotel_name').value = name
       document.querySelector('#hotel_price').value = price
       document.querySelector('#hotel_desc').value = description
       document.querySelector('#hotel_address').value = address
       document.querySelector(`option[value="${location}"]`).setAttribute('selected', 'selected')
+      document.querySelector(`option[value="${type}"]`).setAttribute('selected', 'selected')
     })
 }
 

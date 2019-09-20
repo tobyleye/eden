@@ -33,6 +33,7 @@ templates.generate_table_row = function ({
   price,
   description,
   location,
+  type,
   address
 }, index) {
   return `
@@ -44,6 +45,7 @@ templates.generate_table_row = function ({
     <td class="img">
         <img src="${image}" alt="${name}">
     </td>
+    <td class="type">${type}</td>
     <td class="hotel_price">${parseFloat(price).toLocaleString()}</td>
     <td class="desc">${utils.shorten(description, 120)}</td>
     <td>${utils.shorten(address, 50)}</td>
@@ -97,6 +99,7 @@ templates.generate_table = function (data) {
             <th>No#</th>
             <th>Hotel Name</th>
             <th class="img">Photo</th>
+            <th>Room Type</th>
             <th>Price (₦)</th>
             <th class="desc">Description</th>
             <th>Address</th>
@@ -147,6 +150,16 @@ templates.hotel_form = function (mode, handleSubmit, hotelId) {
           <input type="text" id="hotel_name" placeholder="enter hotel name" required="required">
         </div>
         <div class="form-group">
+          <label for="hotel_room_type">Room type</label>
+          <select id="room_type" required>
+            <option value="" disabled selected>Selete a room type</option>
+            <option value="junior suite">Junior Suite</option>
+            <option value="standard suite">Standard Suite</option>
+            <option value="deluxe suite">Deluxe Suite</option>
+            <option value="executive suite">Executive Suite</option>
+          </select>
+        </div>
+        <div class="form-group">
           <label for="hotel_price">Price</label>
           <input type="number" id="hotel_price" placeholder="price per night" required="required">
         </div>
@@ -157,8 +170,8 @@ templates.hotel_form = function (mode, handleSubmit, hotelId) {
         <div class="form-group-wrap">
           <div class="form-group">
             <label for="hotel_location">Location</label>
-            <select name="state_id" class="select-control" id="hotel_location" required>
-              <option disabled selected>Select State</option>
+            <select class="select-control" id="hotel_location" required>
+              <option value="" disabled selected>Select State</option>
               <option value="Abia">Abia</option>
               <option value="Abuja">Abuja</option>
               <option value="Adamawa">Adamawa</option>

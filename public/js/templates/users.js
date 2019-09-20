@@ -152,6 +152,7 @@ templates.hotel_info = function({
   description,
   location,
   address,
+  type,
   facilities=""
 }) {
   return `
@@ -160,7 +161,11 @@ templates.hotel_info = function({
         <div class="hp-info">
           <h1 class="hp__hotel-name">${name}</h1>
           <p class="hp__hotel-address">${address}<p>
-          <p class="hp__hotel-price hotel_price">${parseFloat(price).toLocaleString()}</p>
+          <p>
+            <span class="hp__room-type">${type}</span>
+            &ndash;
+            <span class="hp__hotel-price hotel_price">${parseFloat(price).toLocaleString()}</span>
+          </p>
         </div>
         <button class="button book-button" onclick="controllers.bookHotel(event)">Book</button>
       </div>

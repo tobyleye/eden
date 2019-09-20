@@ -69,6 +69,13 @@
   margin: 1rem 0;
 }
 
+.hp__room-type {
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 640px) {
   .hp__hotel-name {
     font-size: 2rem;
