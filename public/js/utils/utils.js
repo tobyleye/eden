@@ -9,7 +9,8 @@ var utils = {
     } else {
       // ...todo...
       // show a 404 page
-      // window.location.hash = '/not-found'
+      // for now redirect back to index
+      window.location.hash = '/'
     }
   },
   render(element_id, content) {

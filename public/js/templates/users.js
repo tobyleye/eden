@@ -126,8 +126,8 @@ templates.not_found = function () {
 
 templates.empty_listing = function () {
   return `
-    <div class="no-record">
-      We have no hotel available
+    <div class="empty-record">
+      <p>We have no hotel available at the moment. Kindly check back some other time 🙏</p>
     </div>
   `
 }
